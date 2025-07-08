@@ -1,4 +1,4 @@
-body {
+/*body {
   font-family: 'Segoe UI', sans-serif;
   background: #fffdf8;
   margin: 0;
@@ -12,6 +12,28 @@ body {
   font-size: 2rem;
   margin-bottom: 40px;
   color: #444;
+}*/
+
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url('background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #ffffff;
+  line-height: 1.8;
+}
+
+.overlay_startUp {
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 100vh;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .memory {
