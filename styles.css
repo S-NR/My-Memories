@@ -1,4 +1,4 @@
-body {
+pppbody {
   margin: 0;
   font-family: 'Times New Roman', Times, serif;
   background-image: url('Background.png');
@@ -83,6 +83,39 @@ body {
   transform: rotate(-5deg);
   z-index: 3;
 }
+
+.photo-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.photo-stack img {
+  width: 260px;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  transition: transform 0.3s;
+}
+
+/* Add slight rotation for photo-card feel */
+.photo-stack img:nth-child(1) {
+  transform: rotate(-3deg);
+}
+.photo-stack img:nth-child(2) {
+  transform: rotate(2deg);
+}
+.photo-stack img:nth-child(3) {
+  transform: rotate(-1.5deg);
+}
+
+/* Optional: hover effect */
+.photo-stack img:hover {
+  transform: scale(1.02) rotate(0deg);
+  z-index: 10;
+}
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
