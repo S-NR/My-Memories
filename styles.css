@@ -55,7 +55,7 @@ body {
 .memory .desc {
   max-width: 400px;
   font-size: 1.1rem;
-  color: #fff;
+  color: #000;
 }
 
 /* Rotations for individual memories */
