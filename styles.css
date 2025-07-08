@@ -71,15 +71,15 @@ body {
 }
 
 .img2 {
-  top: 60px;
-  left: 60px;
+  top: 160px;
+  left: 160px;
   transform: rotate(8deg);
   z-index: 2;
 }
 
 .img3 {
-  top: 140px;
-  left: 140px;
+  top: 240px;
+  left: 240px;
   transform: rotate(-5deg);
   z-index: 3;
 }
