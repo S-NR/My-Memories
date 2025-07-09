@@ -90,6 +90,23 @@ body {
   transform: rotate(-5deg);
   z-index: 3;
 }
+
+.rotated-desc {
+  position: absolute;
+  top: 20px;           /* adjust as per layout */
+  left: -40px;         /* adjust as per layout */
+  transform: rotate(-6deg);  /* rotation angle */
+  background-color: rgba(0, 0, 0, 0.5);  /* transparent dark overlay */
+  padding: 15px 20px;
+  max-width: 300px;
+  border-radius: 10px;
+  color: #fff;
+  font-style: italic;
+  font-size: 1rem;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  z-index: 10;
+}
+
 /*
 .photo-stack {
   display: flex;
