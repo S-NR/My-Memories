@@ -71,14 +71,14 @@ body {
 }
 
 .img2 {
-  top: 160px;
+  top: 200px;
   left: 160px;
   transform: rotate(8deg);
   z-index: 2;
 }
 
 .img3 {
-  top: 240px;
+  top: 0px;
   left: 240px;
   transform: rotate(-5deg);
   z-index: 3;
