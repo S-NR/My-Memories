@@ -83,6 +83,13 @@ body {
   transform: rotate(-5deg);
   z-index: 3;
 }
+
+.img4 {
+  top: 200px;
+  left: 0px;
+  transform: rotate(-5deg);
+  z-index: 3;
+}
 /*
 .photo-stack {
   display: flex;
