@@ -172,4 +172,12 @@ body {
     margin-bottom: 20px;
     width: 80%;
   }
+
+  .grid-2x2 img {
+      width: auto;
+  }
+
+  .vertical-stack img {
+      width: auto;
+  }
 }
