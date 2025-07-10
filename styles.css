@@ -174,10 +174,12 @@ body {
   }
 
   .grid-2x2 img {
-      width: auto;
+      width: 40vw;
+    max-width: 160px;
   }
 
   .vertical-stack img {
-      width: auto;
+      width: 40vw;
+    max-width: 160px;
   }
 }
