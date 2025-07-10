@@ -176,10 +176,14 @@ body {
   .grid-2x2 img {
       width: 40vw;
     max-width: 160px;
+    height: 80vw;
+    max-height: 200px;
   }
 
   .vertical-stack img {
       width: 40vw;
     max-width: 160px;
+    height: 80vw;
+    max-height: 200px;
   }
 }
