@@ -109,6 +109,33 @@ body {
   z-index: 10;
 }
 
+.grid-2x2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .grid-2x2 img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+      transform: rotate(0deg) !important;
+    }
+
+    .vertical-stack {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+    .vertical-stack img {
+      width: 80%;
+      border-radius: 12px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    }
+
 /* 📱 Responsive Layout */
 @media (max-width: 768px) {
   .memory {
