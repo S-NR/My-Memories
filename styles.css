@@ -204,3 +204,14 @@ body {
     max-height: 160px;
       }
 }
+
+@media (hover: none) and (pointer: coarse) {
+  /* Mobile devices, even in "Desktop site" mode */
+  .vertical-stack img,
+  .grid-2x2 img {
+    width: 40vw;
+    max-width: 160px;
+    height: 60vw;
+    max-height: 160px;
+  }
+}
