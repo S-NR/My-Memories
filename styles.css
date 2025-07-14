@@ -117,7 +117,8 @@ body {
       margin-bottom: 20px;
     }
     .grid-2x2 img {
-      width: 100%;
+      width: 240px;
+      height: auto;
       border-radius: 12px;
       box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
       transform: rotate(-5deg) !important;
@@ -130,11 +131,13 @@ body {
       gap: 15px;
       margin-bottom: 20px;
     }
-    .vertical-stack img {
-      width: 80%;
-      border-radius: 12px;
-      box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
-    }
+.vertical-stack img {
+  width: 240px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
 
 /* 📱 Responsive Layout */
 @media (max-width: 768px) {
