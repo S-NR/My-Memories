@@ -229,7 +229,7 @@ body {
 
   .memory .desc {
     font-size: 1rem;
-    max-width: 90%;
+    max-width: 60%;
   }
 
   .grid-2x2 img,
@@ -237,7 +237,7 @@ body {
   .grid-3x3 img,
   .grid-4x4 img,
   vertical-stack {
-    width: 50%;
+    width: 60%;
   }
 
   .collage {
