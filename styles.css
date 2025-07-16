@@ -222,10 +222,6 @@ body {
     padding: 5px 0;
   }
 */
-  .memory {
-    flex-direction: column;
-    gap: 10px;
-  }
 
   .memory .desc {
     font-size: 1rem;
@@ -243,6 +239,23 @@ body {
     max-width: none;
     height: auto;
     transform: none !important;
+  }
+    .memory {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+/*   .memory .desc {
+    max-width: 90%;
+    font-size: 1.1rem;
+  } */
+
+  .grid-3x3 img,
+  .grid-4x4 img {
+    width: 40vw;
+    max-width: 160px;
+    height: auto;
   }
 
   .vertical-stack {
