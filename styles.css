@@ -124,32 +124,34 @@ body {
       transform: rotate(-5deg) !important;
     }
 .grid-4x4 {
-      display: flex;
-      flex-template-columns: repeat(4, 1fr);
-      gap: 10px;
-      justify-content: center;
-      margin-bottom: 20px;
-    }
-    .grid-4x4 img {
-      width: 240px;
-      height: auto;
-      border-radius: 12px;
-      box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
-    }
-.grid-3x3 {
-      display: flex;
-      flex-template-columns: repeat(3, 1fr);
-      gap: 10px;
-      justify-content: center;
-      margin-bottom: 20px;
-    }
-    .grid-3x3 img {
-      width: 240px;
-      height: auto;
-      border-radius: 12px;
-      box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
-    }
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
 
+.grid-4x4 img {
+  width: 240px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+.grid-3x3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.grid-3x3 img {
+  width: 240px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
     .vertical-stack {
       display: flex;
       flex-direction: column;
