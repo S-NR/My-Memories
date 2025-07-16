@@ -239,7 +239,7 @@ body {
 
   .grid-2x2 img,
   .vertical-stack img {
-    width: 100%;
+    width: 50%;
     max-width: none;
     height: auto;
     transform: none !important;
@@ -252,13 +252,13 @@ body {
 
   .grid-3x3 img,
   .grid-4x4 img {
-    width: 40vw;
-    max-width: 160px;
+    width: 50%;
+    max-width: none;
     height: auto;
   }
 
   .vertical-stack {
-    width: 100%;
+    width: 50%;
     gap: 10px;
   }
 
