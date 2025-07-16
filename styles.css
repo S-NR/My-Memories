@@ -222,6 +222,11 @@ body {
     padding: 5px 0;
   }
 */
+    .memory {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
   .memory .desc {
     font-size: 1rem;
@@ -239,11 +244,6 @@ body {
     max-width: none;
     height: auto;
     transform: none !important;
-  }
-    .memory {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
   }
 
 /*   .memory .desc {
